@@ -3,9 +3,9 @@ using namespace std;
 
 const int mod = 1e9 + 7;
 
-long long power(long long a, long long b)
+int power(int a, int b)
 {
-    long long result = 1;
+    int result = 1;
     while (b) {
         if (b & 1)
             result = (result * a) % mod;
